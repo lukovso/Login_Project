@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4f43bc;
+    height: 100vh;
+}
+header{
+    color: #68e0cc;
+    text-align: right;
+    margin: 1rem 2rem;
+}
+header p{
+    margin: 1rem 0;
+}
+header a{
+    text-decoration: none;
+    color: #68e0cc;
+    border-radius: 10px;
+    border: 1px solid  #4f43bc;
+    background-color: #0e0c1f;
+    padding: .3rem .8rem;
+}
+body:nth-child(2){
+display: flex;
+flex-direction: column;
+}
+table{
+    background-color: #0e0c1f;
+    border-radius: 30px;
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+}
+
+.naslovniRed{
+    color: #68e0cc;
+    border-bottom: 1px solid #68e0cc;
+}
+.korisnik td{
+    text-align: center;
+    padding: .5rem;
+    color: #68e0cc;
+}
+button{
+    color: #68e0cc;
+    border-radius: 15px;
+    border: 1px solid  #4f43bc;
+    padding: .7rem;
+    background-color: #0e0c1f;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+    text-align: right;
+    margin: 1rem 2rem;
+
+}
